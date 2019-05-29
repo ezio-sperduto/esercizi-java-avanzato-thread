@@ -5,6 +5,7 @@ public class TestRunnable{
 	public static void main(String...args){
 		System.out.println("Simple-Main!");
 
+		new Thread(new Contatore()).start();
 
 		Contatore r=new Contatore();
 		Thread t1=new Thread(r);
